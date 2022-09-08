@@ -1,0 +1,31 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress automation test case",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankuradhey/cypress-automation.git"
+  },
+  "keywords": [
+    "cypress",
+    "node.js",
+    "Javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankuradhey/cypress-automation/issues"
+  },
+  "homepage": "https://github.com/ankuradhey/cypress-automation#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
